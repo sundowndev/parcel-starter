@@ -1,0 +1,27 @@
+.menu {
+  .menu-toggle {
+    height: 5.3rem;
+    width: 5.3rem;
+    border: .3rem solid rgba(white, .7);
+    padding: 1.3rem 1.1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover {
+      background: $color5;
+      border-color: $color5;
+    }
+
+    span {
+      height: .3rem;
+      background: white;
+      width: 100%;
+      display: block;
+      transition: $transition;
+    }
+  }
+}
