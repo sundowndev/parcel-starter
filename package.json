@@ -1,7 +1,7 @@
 {
-  "name": "Personal Website",
+  "name": "starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "starter",
   "main": "index.js",
   "author": "Sundowndev",
   "license": "ISC",
