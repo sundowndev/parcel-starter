@@ -5,7 +5,7 @@ Simple front-end starter using sass preprocessor with gulp. **You need to instal
 ## Installation
 
 ~~~
-$ npm install gulp gulp-sass gulp-autoprefixer
+$ npm install
 $ gulp sass
 ~~~
 
