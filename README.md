@@ -13,6 +13,7 @@ $ gulp sass
 
 Include sass files in common.sass
 ~~~ sass
+@import '_reset';
 @import '_conf';
 @import '_global';
 @import '_header';
