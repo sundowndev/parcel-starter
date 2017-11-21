@@ -1,9 +1,9 @@
 {
   "name": "Personal Website",
   "version": "1.0.0",
-  "description": "school",
+  "description": "",
   "main": "index.js",
-  "author": "CERVEAUX Raphael",
+  "author": "Sundowndev",
   "license": "ISC",
   "devDependencies": {
     "gulp-autoprefixer": "^3.1.1",
