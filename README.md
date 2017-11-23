@@ -6,7 +6,7 @@ Simple front-end starter using sass preprocessor with gulp. **You need to instal
 
 ~~~
 $ npm install
-$ gulp sass
+$ gulp watch
 ~~~
 
 ## Usage
