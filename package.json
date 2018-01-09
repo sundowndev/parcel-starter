@@ -1,10 +1,14 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "description": "starter",
+  "description": "front-end starter",
   "main": "index.js",
-  "author": "Sundowndev",
+  "author": "SundownDEV",
   "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/SundownDEV/front-end-starter.git"
+  }
   "devDependencies": {
     "gulp-autoprefixer": "^3.1.1",
     "gulp-sourcemaps": "^1.12.0"
