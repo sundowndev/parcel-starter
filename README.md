@@ -1,56 +1,31 @@
-# Front-end starter
+# What's inside ?
 
-Simple front-end starter using sass preprocessor with gulp. **You need to install npm.**
+Fastshell + Webpack + Sass = 🔥
+
+Fiercely quick front-end boilerplate and workflow with <a href="https://github.com/HosseinKarami/fastshell">Fastshell</a>, Javascript bundlers with <a href="https://github.com/webpack/webpack">Webpack</a> and CSS preprocessing with <a href="https://github.com/sass/sass">Sass</a>.
 
 ## Installation
 
+Clone the repository
+
+~~~
+$ git clone https://github.com/SundownDEV/front-end-starter
+~~~
+
+Install dependencies and run the default gulp script
+
 ~~~
 $ npm install
-$ npm install --global gulp
-$ gulp watch
+$ gulp
 ~~~
 
-## Usage
+## Overview
 
-Include sass files in common.sass
-~~~ sass
-@import '_reset';
-@import '_conf';
-@import '_global';
-@import '_header';
-@import '_menu';
-@import '_about';
-@import '_footer';
-~~~
+#### File structure
+...
 
-Use _conf.sass to initialize colors, fonts, and transitions
-~~~ sass
-$containerWidth: 117rem;
+#### Hot reloading
+...
 
-// Colors
-
-$color1: #ff2b4a;
-$color2: #835aeb;
-$color3: #002453;
-$color4: #10c6fc;
-$color5: #64cbc0;
-
-$textColor: black;
-$firstDegrade: #7a6b7b;
-$secondDegrade: #30697d;
-
-// Fonts
-
-$fontFamilyText: "Roboto", Arial;
-$fontFamilyTitle: "Raleway", Arial;
-
-// Conf vars
-
-$transition: ease-out .4s;
-
-// Mixins
-
-@mixin backgroundImage($image) {
-  background: url('../../images/#{$image}')
-}
-~~~
+#### Minified assets files
+...
