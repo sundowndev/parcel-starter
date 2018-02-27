@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 
-var input = './public/css/scss/**/*.scss';
-var output = './public/css';
+var input = './dist/css/scss/**/*.scss';
+var output = './dist/css';
 
 var sassOptions = {
   errLogToConsole: true,

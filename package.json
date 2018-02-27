@@ -1,13 +1,13 @@
 {
-  "name": "starter",
+  "name": "Front-end starter",
   "version": "1.0.0",
-  "description": "front-end starter",
-  "main": "index.js",
+  "description": "front-end starter including gulp sass and webpack",
+  "main": "app.js",
   "author": "SundownDEV",
   "license": "ISC",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/SundownDEV/front-end-starter.git"
+    "type": "git",
+    "url": "https://github.com/SundownDEV/front-end-starter.git"
   },
   "devDependencies": {
     "gulp-autoprefixer": "^3.1.1",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "webpack": "^4.0.1"
   }
 }
