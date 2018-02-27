@@ -19,13 +19,34 @@ $ npm install
 $ gulp
 ~~~
 
+Open the project url `http://localhost:3000/`
+
 ## Overview
 
-#### File structure
-...
+#### Directory structure
+~~~
+    |-- app
+        |-- index.html
+        |-- assets
+            |-- css
+            |-- js
+    |-- src
+        |-- scss
+            |-- common.scss
+        |-- js
+            |-- app.js // Main application bundler
+~~~
 
-#### Hot reloading
-...
+#### Minification and hot reloading
 
-#### Minified assets files
-...
+gulp-minify and gulp-cssnano minify css and js assets files, then Browser-sync reload the application server everytime you edit a scss/js file.
+
+~~~ js
+gulp.task('browser-sync', function() {
+    browserSync.init(null, {
+        server: {
+            baseDir: "app"
+        }
+    });
+});
+~~~
