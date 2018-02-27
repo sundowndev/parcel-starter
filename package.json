@@ -10,7 +10,7 @@
     "url": "https://github.com/SundownDEV/front-end-starter.git"
   },
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "start": "gulp default"
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
