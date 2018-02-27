@@ -55,7 +55,6 @@ gulp.task('js', function() {
         min:'.min.js'
       }
     }))
-    /*.pipe(rename({ suffix: '.min' }))*/
     .pipe(header(banner, { package : package }))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('app/assets/js'))
