@@ -1,0 +1,13 @@
+@import "global/reset"; //_reset.css
+@import "global/variables"; //_variables.css
+
+// Import Mixins
+@import "mixins/responsive";
+
+// Import components
+
+@import "components/header";
+
+body{
+  background: coral;
+}
