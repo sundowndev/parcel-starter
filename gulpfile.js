@@ -1,11 +1,9 @@
 const path = require('path');
 
 var gulp = require('gulp'),
-    gutil = require('gulp-util'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync'),
     autoprefixer = require('gulp-autoprefixer'),
-    uglify = require('gulp-uglify'),
     header  = require('gulp-header'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
