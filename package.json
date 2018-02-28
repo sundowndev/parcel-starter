@@ -22,15 +22,13 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.8",
-    "webpack": "^4.0.1",
     "webpack-cli": "^2.0.9",
     "webpack-stream": "^4.0.2"
   },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "webpack": "^4.0.1"
   }
 }
