@@ -1,15 +1,14 @@
-const path = require('path');
-
-var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+var path = require('path'),
+    gulp = require('gulp'),
+    sass = require('node-sass'),
     browserSync = require('browser-sync'),
     autoprefixer = require('gulp-autoprefixer'),
-    header = require('gulp-header'),
-    rename = require('gulp-rename'),
-    cssnano = require('gulp-cssnano'),
+    header  = require('gulp-header'),
+    rename = require('rename'),
+    minifyCSS = require('clean-css'),
+    minifyJS = require('gulp-minify'),
     sourcemaps = require('gulp-sourcemaps'),
     webpack = require('webpack-stream'),
-    minify = require('gulp-minify'),
     package = require('./package.json');
 
 var banner = [
@@ -30,7 +29,7 @@ gulp.task('css', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 4 version'))
     .pipe(gulp.dest('app/assets/css'))
-    .pipe(cssnano())
+    .pipe(minifyCSS())
     .pipe(rename({ suffix: '.min' }))
     .pipe(header(banner, { package : package }))
     .pipe(sourcemaps.write())
@@ -48,12 +47,12 @@ gulp.task('js', function() {
       }
     }))
     .pipe(gulp.dest('app/assets/js'))
-    .pipe(minify({
+    .pipe(minifyJS({
       ext:{
         min:'.min.js'
       }
     }))
-    .pipe(header(banner, { package : package }))
+    .pipe(header(banner, cssnano{ package : package }))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('app/assets/js'))
     .pipe(browserSync.reload({stream:true}));
