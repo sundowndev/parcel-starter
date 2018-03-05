@@ -1,0 +1,21 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $textColor;
+  margin: 0;
+  font-family: $fontFamilyText;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $fontFamilyTitle;
+  margin: 0;
+}
+
+.container {
+  max-width: $containerWidth;
+  margin: auto;
+  width: 100%;
+}

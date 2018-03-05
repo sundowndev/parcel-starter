@@ -1,5 +1,5 @@
 {
-  "name": "parcel",
+  "name": "front-end-starter",
   "version": "1.0.0",
   "description": "",
   "private": false,
@@ -7,11 +7,15 @@
   "scripts": {
     "start": "parcel index.html"
   },
+  "author": "SundownDEV",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-minify": "^0.3.0",
+    "babel-preset-minify": "^0.3.0"
+  },
   "dependencies": {
     "autoprefixer": "^8.0.0",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.2"
-  },
-  "author": "",
-  "license": "MIT"
+  }
 }

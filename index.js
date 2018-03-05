@@ -1,2 +1,4 @@
-import './styles/style.scss'
-document.write('JS IS WORKIIIIIIING');
+//import test from './src/js/test.js'
+import './src/scss/common.scss'
+
+//test()
