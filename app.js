@@ -1,3 +1,4 @@
 import './src/scss/common.scss'
+import {hello} from './src/js/test'
 
-document.write('hello world!')
+hello()
