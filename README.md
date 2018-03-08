@@ -4,17 +4,15 @@ Parcel + Babel (ES6+) + SASS = 🔥
 
 Simple front-end boilerplate and Javascript bundlers with <a href="https://github.com/parcel-bundler">Parcel</a> and CSS preprocessing with <a href="https://github.com/sass/sass">Sass</a>.
 
-**TODO: minification (babel-minify preset)**
-
 ## Installation
 
 Clone the repository
 
 ~~~
-$ git clone https://github.com/SundownDEV/front-end-starter
+$ git clone https://github.com/SundownDEV/front-end-starter.git
 ~~~
 
-Install dependencies and run the default gulp script
+Install dependencies and run the start script (parcel)
 
 ~~~
 $ npm install
@@ -36,7 +34,3 @@ Open the project url `http://localhost:1234/`
         |-- js
             |-- [...]
 ~~~
-
-#### Minification and hot reloading
-
-[...]
